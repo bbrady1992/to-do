@@ -8,6 +8,6 @@ include_directories(include)
 
 add_executable(to-do 
   src/main.cpp
-  src/DBInterface.cpp)
+  src/SQLiteInterface.cpp)
 
 target_link_libraries(to-do sqlite3)
